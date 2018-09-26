@@ -1,13 +1,38 @@
-# POPULUS
+# PopuLLLus
 
-[![Gitter chat](https://badges.gitter.im/ethereum/populus.png)](https://gitter.im/ethereum/populus "Gitter chat")
-[![Build Status](https://travis-ci.org/ethereum/populus.png)](https://travis-ci.org/ethereum/populus)
-[![Documentation Status](https://readthedocs.org/projects/populus/badge/?version=latest)](https://readthedocs.org/projects/populus/?badge=latest)
-[![PyPi version](https://pypip.in/v/populus/badge.png)](https://pypi.python.org/pypi/populus)
-[![PyPi downloads](https://pypip.in/d/populus/badge.png)](https://pypi.python.org/pypi/populus)
-   
+**NOTE** from @veox:
 
-Development framework for Ethereum smart contracts
+This is a fork of [Populus](https://github.com/ethereum/populus) with some
+rough commits to enable developing in LLL. It is the same as my
+[`lll-to-merge`](https://github.com/veox/populus/tree/lll-to-merge) branch.
+
+I never got to making its use sane; for example, it will proceed without
+raising an exception even if `lllc` failed to compile a contract, and won't
+even print what the compiler complained about.
+
+I never got to proper integration into upstream Populus, since the latter
+fell behind in maintenance, and is now in re-design/re-implementation phase
+anyway.
+
+I did, however, use this fork in a number of projects:
+
+* https://gitlab.com/veox/lll-contracts
+* https://gitlab.com/veox/lll-creation-patterns
+* https://gitlab.com/veox/oobiqoo
+
+Breaking this fork out as a standalone project allows me to make a PyPI
+package, specify it as a dependency in those other codebases, and allow
+for straightforward reproduction by others. In the end, this is the goal:
+make the software easy to approach and hack on, is so you may wish.
+
+Runnable CI is a bonus. :)
+
+-----
+
+The rest of README remains as-is since forked.
+
+-----
+-----
 
 
 ## Documentation
