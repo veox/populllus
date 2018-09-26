@@ -16,6 +16,7 @@ setup(
     install_requires=[
         "anyconfig>=0.7.0",
         "click>=6.6",
+        "cytoolz>=0.8.2",
         "contextlib2>=0.5.4",
         "eth-testrpc>=1.3.0",
         "eth-utils>=0.7.4,<0.8",
@@ -25,8 +26,8 @@ setup(
         "pylru>=1.0.9",
         "pysha3>=0.3,!=1.0,>1.0.0",
         "pytest>=2.7.2,!=3.3.0",
+        "rlp>=0.6.0,<1",
         "semantic_version>=2.6.0",
-        "cytoolz>=0.8.2",
         "toposort>=1.4",
         "watchdog>=0.8.3",
         "web3>=3.16.5,<4",
