@@ -6,6 +6,9 @@ This is a fork of [Populus](https://github.com/ethereum/populus) with some
 rough commits to enable developing in LLL. It is the same as my
 [`lll-to-merge`](https://github.com/veox/populus/tree/lll-to-merge) branch.
 
+It will install as `populus`, not `populllus`! Also, it will _still_ require
+specifying the `LLLBackend` manually in the config.
+
 I never got to making its use sane; for example, it will proceed without
 raising an exception even if `lllc` failed to compile a contract, and won't
 even print what the compiler complained about.

@@ -4,14 +4,12 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='populus',
+    name='populllus',
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
     version='2.1.0',
-    description="""Ethereum Development Framework""",
+    description="""Ethereum Development Framework (fork for LLL)""",
     long_description_markdown_filename='README.md',
-    author='Piper Merriam',
-    author_email='pipermerriam@gmail.com',
-    url='https://github.com/ethereum/populus',
+    url='https://gitlab.com/veox/populllus',
     include_package_data=True,
     py_modules=['populus'],
     setup_requires=['setuptools-markdown'],
@@ -46,10 +44,11 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
 )
