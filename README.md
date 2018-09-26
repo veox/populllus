@@ -34,6 +34,8 @@ Runnable CI is a bonus. :)
 
 The rest of README remains as-is since forked.
 
+**Many other project-level documentation is outdated, too.**
+
 -----
 -----
 
