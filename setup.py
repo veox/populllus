@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 setup(
     name='populllus',
     # *IMPORTANT*: Don't manually change the version here. Use the 'bumpversion' utility.
-    version='2.2.0',
+    version='2.2.1',
     description="""Ethereum Development Framework (fork for LLL)""",
     long_description_markdown_filename='README.md',
     url='https://gitlab.com/veox/populllus',
